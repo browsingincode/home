@@ -1,0 +1,110 @@
+
+.wrapper--blue {
+    background-color: #035f74;
+}
+
+.law-of-attraction {
+    position: relative;
+}
+.main-figure {
+    height: 937px;
+}
+.main-figure__image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.main-figure__figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 50px;
+}
+.main-figure__pretitle,
+.main-figure__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif
+}
+.main-figure__pretitle {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.main-figure__title {
+    font-size: 75px;
+    line-height: 1.1em;
+    font-weight: 600;
+    max-width: 450px;
+    margin-bottom: 10px;
+}
+
+.law-of-attraction__bttn {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .07em;
+}
+.law-of-attraction__bttn::before {
+    content: ">";
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+}
+
+
+.nav-attraction {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.main-navigation {
+    display: none;
+}
+
+.section-main {
+    display: flex;
+}
+.section-main__article {
+    flex: 0 1 50%;
+    height: 596px;
+}
+.section-main__article--yellow {
+    background-color: #eaae3e;
+}
+.section-main__article--purple {
+    background-color: #73479f;
+}
+
+.section-bottom {
+    width: 100%;
+    height: 341px;
+    background-color: #000;
+}
+@media only screen
+and (min-width: 767px) {
+
+}
+@media only screen
+and (max-width: 767px) {
+    
+}
